@@ -13,7 +13,7 @@ of polygons.
 }
 \details{
 Originally this code was published in the `rgl` package, and written
-by Duncan Murdoch.
+by Duncan Murdoch. The code from rgl 0.99.9 was copied on 2018-01-22.
 }
 \examples{
 data("minimal_mesh", package = "silicate")
