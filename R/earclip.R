@@ -40,7 +40,7 @@ earclip_rgl <- function (x, y = NULL, z = NULL, random = TRUE, plot = FALSE,
     else if (!diff(range(y)))
       y <- xyz$z
   }
-  nesting <- #nestPolys_rgl(x, y)
+  nesting <- nestPolys_rgl(x, y)
   verts <- nesting$verts
   nextvert <- rep(NA, length(x))
   processInside <- function(v) {
